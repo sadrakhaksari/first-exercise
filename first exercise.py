@@ -157,3 +157,28 @@ class Invertebrates(Animal):
     def home(self):
         print("My home in driest of desert")
 
+
+class Shark(Fish):
+    '''one of the group of fish'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="", age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton,"
+              f" five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head.")
+
+    def make_sound(self):
+        print("blub blub...")
+
+    def move(self):
+        print("I swim")
+
+    def home(self):
+        print("My home in see")
+
+    def eat(self):
+        print("I eat the another fish:)))")
+
+
+
