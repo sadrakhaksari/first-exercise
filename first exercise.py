@@ -54,6 +54,9 @@ class Mammal(Animal):
     def home(self):
         print("My home in world")
 
+    def eat(self):
+        print("We eat every thing")
+
 
 class Fish(Animal):
 
@@ -131,6 +134,9 @@ class Reptile(Animal):
     def home(self):
         print("My home in jungle")
 
+    def eat(self):
+        print("...")
+
 
 class Amphibians(Animal):
     '''one of the group of animal'''
@@ -154,6 +160,9 @@ class Amphibians(Animal):
     def home(self):
         print("I am living within terrestrial, fossorial, arboreal or freshwater aquatic ecosystems.")
 
+    def eat(self):
+        print("...")
+
 
 class Invertebrates(Animal):
     '''one of the group of Animal'''
@@ -174,6 +183,9 @@ class Invertebrates(Animal):
 
     def home(self):
         print("My home in driest of desert")
+
+    def eat(self):
+        print('...')
 
 
 class Shark(Fish):
