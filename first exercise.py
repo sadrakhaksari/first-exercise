@@ -201,12 +201,6 @@ class Shark(Fish):
     def make_sound(self):
         print("blub blub...")
 
-    def move(self):
-        print("I swim")
-
-    def home(self):
-        print("My home in see")
-
     def eat(self):
         print("I eat the another fish:)))")
 
@@ -378,7 +372,4 @@ class Old_World_Sparrow(Passerine_Bird):
 
     def make_sound(self):
         print("jiik jik...")
-
-    def home(self):
-        print("My home in jungle and city")
 
