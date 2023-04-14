@@ -18,6 +18,18 @@ class Animal:
               f"and my color is {self.color}"
               f"I am {self.race}")
 
+    def move(self):
+        pass
+
+    def home(self):
+        pass
+
+    def make_sound(self):
+        pass
+
+    def eat(self):
+        pass
+
 
 class Mammal(Animal):
 
@@ -65,6 +77,9 @@ class Fish(Animal):
     def home(self):
         print("My home in see")
 
+    def eat(self):
+        print("I eat every thing in see")
+
 
 class Bird(Animal):
     '''one of the group of animal'''
@@ -89,6 +104,9 @@ class Bird(Animal):
 
     def home(self):
         print("My home in jungle and city")
+
+    def eat(self):
+        print("I eat bugs")
 
 
 class Reptile(Animal):
