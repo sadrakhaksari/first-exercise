@@ -285,5 +285,32 @@ class Ship(Mammal):
         print("My home in village")
 
 
+class Frog(Amphibians):
+    '''one of the group of Amphibians'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="", age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"An adult frog has a stout body, protruding eyes, anteriorly-attached tongue, limbs folded underneath, "
+              f"and no tail (the tail of tailed frogs is an extension of the male cloaca). Frogs have glandular skin, "
+              f"with secretions ranging from distasteful to toxic."
+              f" Their skin varies in colour from well-camouflaged dappled brown,"
+              f" grey and green to vivid patterns of bright red or yellow and black"
+              f" to show toxicity and ward off predators.")
+
+    def make_sound(self):
+        print("ghooor ghor ...")
+
+    def move(self):
+        print("I jump and swim")
+
+    def home(self):
+        print("I am living in marsh.")
+
+
+
+
+
 
 
