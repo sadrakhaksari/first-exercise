@@ -181,4 +181,109 @@ class Shark(Fish):
         print("I eat the another fish:)))")
 
 
+class Cat(Mammal):
+    '''one of the group of Mammal'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="", age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Hello, I am a cat"
+              f"I am from {self.nationality}"
+              f"My name is {self.name} "
+              f"and my color is {self.color}"
+              f"I am {self.race}")
+
+    def make_sound(self):
+        print("meeeoowwww...")
+
+    def move(self):
+        print("I walk")
+
+    def eat(self):
+        print("I eat meat")
+
+    def home(self):
+        print("My home in jungle and city")
+
+
+class Cow(Mammal):
+    '''one of the group of Mammal'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="", age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Hello, I am a cow"
+              f"I am from {self.nationality}"
+              f"My name is {self.name} "
+              f"and my color is {self.color}"
+              f"I am {self.race}")
+
+    def make_sound(self):
+        print("moooow...")
+
+    def move(self):
+        print("I walk")
+
+    def eat(self):
+        print("I eat plant")
+
+    def home(self):
+        print("My home in village")
+
+
+class Dog(Mammal):
+    '''one of the group of Mammal'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="",age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Hello, I am a dog"
+              f"I am from {self.nationality}"
+              f"My name is {self.name} "
+              f"and my color is {self.color}"
+              f"I am {self.race}")
+
+    def make_sound(self):
+        print("hoop hop...")
+
+    def move(self):
+        print("I walk")
+
+    def eat(self):
+        print("I eat meat")
+
+    def home(self):
+        print("My home in jungle and village and city")
+
+
+class Ship(Mammal):
+    '''one of the group of Mammal'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="", age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Hello, I am a ship"
+              f"I am from {self.nationality}"
+              f"My name is {self.name} "
+              f"and my color is {self.color}"
+              f"I am {self.race}")
+
+    def make_sound(self):
+        print("beeee bee...")
+
+    def move(self):
+        print("I walk")
+
+    def eat(self):
+        print("I eat plant")
+
+    def home(self):
+        print("My home in village")
+
+
+
 
