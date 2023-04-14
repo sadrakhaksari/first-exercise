@@ -308,6 +308,9 @@ class Frog(Amphibians):
     def home(self):
         print("I am living in marsh.")
 
+    def eat(self):
+        print("I eat bugs")
+
 
 class Passerine_Bird(Bird):
     '''one of the group of Bird'''
@@ -348,9 +351,4 @@ class Old_World_Sparrow(Passerine_Bird):
 
     def home(self):
         print("My home in jungle and city")
-
-
-
-
-
 
