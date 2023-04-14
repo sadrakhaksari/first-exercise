@@ -329,6 +329,25 @@ class Passerine_Bird(Bird):
         print("My home in jungle and city")
 
 
+class Old_World_Sparrow(Passerine_Bird):
+    '''one of the group of Passerine_Bird'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="",age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"Old World sparrows are a group of small passerine birds forming the family Passeridae."
+              f" They are also known as true sparrows, a name also used for a particular genus of the family, Passer."
+              f" They are primarily seed-eaters, though they also consume small insects.")
+
+    def eat(self):
+        print("I eat seed and worm")
+
+    def make_sound(self):
+        print("jiik jik...")
+
+    def home(self):
+        print("My home in jungle and city")
 
 
 
