@@ -309,6 +309,27 @@ class Frog(Amphibians):
         print("I am living in marsh.")
 
 
+class Passerine_Bird(Bird):
+    '''one of the group of Bird'''
+
+    def __init__(self, kind="", name="", color="", race="", nationality="",age=""):
+        super().__init__(kind, name, color, race, nationality, age)
+
+    def info(self):
+        print(f"A passerine is any bird of the order Passeriformes , "
+              f"which includes more than half of all bird species. "
+              f"Sometimes known as perching birds, passerines generally have "
+              f"an anisodactyl arrangement of their toes (three pointing forward and one back),"
+              f" which facilitates perching")
+
+    def eat(self):
+        print("I eat worm")
+
+    def home(self):
+        print("My home in jungle and city")
+
+
+
 
 
 
